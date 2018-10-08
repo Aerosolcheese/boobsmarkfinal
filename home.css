@@ -1,0 +1,120 @@
+
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #240410;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+.logo{
+	padding: 0;
+	margin-top: -60px; 
+	float: left;
+}
+.topnav a{
+	text-decoration: none;
+	color: #f6a2bf;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.topnav{
+	text-align: right;
+	margin-right: 10%;
+
+}
+
+
+header{
+	background-color: #140209;
+	padding-top: 10px;
+	min-height: 70px;
+	color: white;
+}
+
+
+
+section h1{
+	font-family: 'Raleway', 'sans-serif';
+	margin-left: 1.66%;
+	font-size: 40px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f6a2bf;
+	width: 30%;
+	padding-bottom: 20px;
+	color: #f6a2bf;
+}
+
+figure {
+  font-family: 'Raleway', 'sans-serif';	
+  float: left;
+  width: 30%;
+  
+  /*border-bottom: 1px solid #f6a2bf;*/
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+figure img{
+	width: 70%;
+	float: bottom;
+}
+
+figcaption{
+	color: #f6a2bf;
+	font-size: 30px;
+}
+
+/*boxes*/
+
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	margin-left: 10%;
+	float: left;
+	width: 30%;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+
+#boxes .box img{
+	width: 50%;
+}
+
+#boxes h3{
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 40px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color:  #f6a2bf;
+}
+
+#boxes .box:hover{
+	backgroung-color: white;
+}
+
+section a:hover{
+	color: white;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #f6a2bf;
+	text-align: center;
+}
+
+.box a{
+	text-decoration: none;
+}
+

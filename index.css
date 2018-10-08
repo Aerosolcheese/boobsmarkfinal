@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #000;
+}
+.authpic{
+	width: 35%;
+	height: auto;
+	float: left;
+}
+.clr{
+	clear:both;
+}
+
+
+/*contents and container*/
+.container{
+	margin: 0;
+	width: 65%;
+	margin-left: 50px;
+	position: relative;
+}
+.container .boobsmark{
+	position: relative;
+	margin:0;
+	padding: 0;
+	left: 40%;
+	top: -40px;
+	
+}
+.container .first{
+	position: relative;
+	color: #fff;
+	top: -90px;
+	left: 30%;
+
+}
+.head p{
+	font-size: 35px;
+	text-align: center;
+}
+.container .a{
+	position: relative;
+	top: -60px;
+	left: 30%;
+	color: white;
+	text-align: center;
+}
+
+/*buttons*/
+
+.container .button{
+	position: relative;
+	left: 43%;
+	top: 40px;
+}
+.container .button .Enter, .container .button .Exit{
+	background-color: pink;
+	border:none;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	cursor: pointer;
+}

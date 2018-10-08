@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+body{
+	background-color: #240410;
+}
+header{
+	background-color: #140209;
+	padding-top: 10px;
+	min-height: 90px;
+	color: white;
+}
+
+/*Navigation TOP*/
+
+.logo{
+	
+	padding: 0;
+	margin-top: -60px; 
+	float: left;
+}
+/*topnav*/
+.topnav a{
+	text-decoration: none;
+	color: #f6a2bf;
+	padding: 10px;
+}
+
+.topnav{
+	text-align: right;
+	margin-right: 10%;
+
+}
+
+/*Vertical Nav*/
+li{
+	list-style: none;
+	margin: 0;
+	padding: 30px;
+	width: 300px;
+}
+li:hover{
+	background-color: #500e27;
+}
+
+
+.text1{
+	bottom: 70%;
+	
+}
+.text2{
+	bottom: 20%;
+	right: 30%;
+}
+.libraryicon{
+	height: 60px;
+	width: auto;
+	left: 40%;
+
+}
+.homeicon{
+	height: 50px;
+	width: auto;
+}
+.vbar{
+	position: absolute;
+	margin-top: 70px;
+	background-color: #3d051b;
+}
+span{
+	position: absolute;
+	right: 40%;
+	color:  #f6a2bf;
+
+}
+
+.librarydiv{
+	background-color: white;
+}
+
+
+/*Icons*/
+.add{
+	height: 60px;
+	width: 60px;
+	float: left;
+
+	
+}
+.update{
+	height: 60px;
+	width: 60px;
+
+}
+.delete{
+	height: 60px;
+	width: 60px;
+}
+
+
+.one{
+	margin-top: 30px;
+	margin-left: 20px; 
+}
+.two{
+		margin-top: 30px;
+	margin-left: 10px; 
+	top: -10%;
+}
+.three{
+		margin-top: 30px;
+	margin-left: 20px; 
+}
+
+.addbutton{
+	margin-bottom: 40px;
+}
+
+.updatebutton{
+	margin-bottom: 40px;
+
+}
+
+/*#one{
+	margin-top: 30px;
+}
+*/
+
+.main{
+	margin-left: 40%;
+	margin-top: 10%;
+}
